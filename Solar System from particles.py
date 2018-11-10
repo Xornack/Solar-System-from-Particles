@@ -53,14 +53,14 @@ class Particle():
             self.colour = (255,255, 0)
 
     def move(self):
-        """ Moves the particle based on its speed and direction """
+        """Moves the particle based on its speed and direction """
  
         self.x += math.sin(self.angle) * self.speed
         self.y += math.cos(self.angle) * self.speed
 
 
     def attract(self, other):
-        """" Particles attract one another based on their distance and masses"""
+        """Particles attract one another based on their distance and masses"""
         
         dx = (self.x - other.x) * 2
         dy = (self.y - other.y) * 2
