@@ -3,10 +3,10 @@ This one follows the 'sun.'"""
 
 import math
 import random
-import pygame, sys, os
+import pygame, sys
 from pygame.locals import *
 
-#   Set up Pygame variables
+#  Set up Pygame variables
 pygame.init()
 BG_colour = (0,0,0)
 particle_colour = (200,200,200)
